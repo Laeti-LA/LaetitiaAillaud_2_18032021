@@ -1,16 +1,28 @@
-@font-face{
+@font-face
+{
     font-family: "Raleway", sans-serif;
-    src: url("Raleway-Regular.ttf")
+    src: url("raleway-v19-latin-regular.eot") format("eot");
+    src: url("raleway-v19-latin-regular.ttf") format("ttf");
+    src: url("raleway-v19-latin-regular.woff") format("woff");
+    src: url("raleway-v19-latin-regular.woff2") format("woff2");
+    src: url("raleway-v19-latin-regular.svg") format("svg");
 }
 
-header /*Logo, menu et inscription alignés en haut + marge de 50px de chaque côté */
+header /*Logo, menu "Hébergements et Activités" et lien "S'inscrire" alignés en haut*/
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 0.8em
+}
+
+.logo
+{
+    padding-top: 10px;
 }
 
 .menu
@@ -24,6 +36,7 @@ header /*Logo, menu et inscription alignés en haut + marge de 50px de chaque c�
 {
     font-weight: bold;
     text-align: center;
+    width: 90px;
 }
 
 nav
@@ -40,8 +53,37 @@ nav ul
     text-align: center;
 }
 
-.page /* Bloc page : marge de 50px de chaque côté (comme le header)
+nav li
 {
-    margin-left: 50px;
-    margin-right: 50px;
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+
+}
+
+li a /* Annuler effets liens soulignés et colorés*/
+{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+}
+
+.inscription a /*lien "S'inscrire"* non souligné et toujours bleu*/
+{
+    text-decoration: none;
+    color: #0065fc;
+} 
+
+nav a:hover /*Effets au survol : ligne bleue au-dessus et texte en bleu*/
+{
+    color: #0065fc; 
+    border-top: 1.5px solid #0065fc;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.page /* Bloc page : marge de 2 de chaque côté (comme le header)
+{
+    margin-left: 20px;
+    margin-right: 20px;
 }
