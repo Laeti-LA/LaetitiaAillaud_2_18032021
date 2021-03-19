@@ -63,7 +63,7 @@ footer /*Pied de page comprenant trois blocs alignés, fond gris sur toute la la
     width: 100%;
     flex-direction: column;
     font-size: 1.1em;
-    padding-block-start: 1em;
+    padding-top: 1em;
 }
 
 footer div /*Trois blocs les uns sous les autres, occupent toute la largeur*/
@@ -77,6 +77,6 @@ footer h5
 {
     font-size: 0.9em;
     font-weight: bold;
-    margin-block-end: 0;
-    margin-block-start: 1.5em;
+    margin-bottom: 0;
+    margin-top: 1.5em;
 }
