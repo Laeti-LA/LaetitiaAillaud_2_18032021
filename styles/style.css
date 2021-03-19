@@ -111,21 +111,36 @@ h1
     align-items: center;
 }
 
-.recherche div
-{
-    padding: 10px;
-}
 
 .icone
 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
+    height: 30px;
+    width: 30px;
 }
 
-.cat
+input
 {
+    height: 30px;
+    padding-left: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2
+}
+
+button
+{
+    color: white;
+    font-weight: bold;
     background-color: #0065fc;
     border-radius: 0 10px 10px 0;
+    border:none;
+    height: 30px;
 }
 
 /* SECTION 2 : Hébergements */
