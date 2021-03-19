@@ -104,6 +104,30 @@ h1
     line-height: 0.2em;
 }
 
+.recherche
+{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recherche div
+{
+    padding: 10px;
+}
+
+.icone
+{
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+
+.cat
+{
+    background-color: #0065fc;
+    border-radius: 0 10px 10px 0;
+}
+
 /* SECTION 2 : Hébergements */
 
 
