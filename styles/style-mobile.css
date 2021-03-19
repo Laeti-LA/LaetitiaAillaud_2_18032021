@@ -1,6 +1,18 @@
-header
+header /* Taille de police plus importante sur mobile*/
 {
     font-size: 1.1em;
+}
+
+.logo
+{
+    margin-left: 20px;
+}
+
+.inscription 
+{
+    position: absolute;
+    top: 40px;
+    right: 50px;
 }
 
 .menu {
@@ -11,42 +23,32 @@ header
     text-align: right;
 }
 
-nav
+nav /* Menu centré */
 {
     margin-left: 20px;
     margin-right: 20px;
     width: 100%;
 }
 
-nav ul {
+nav ul /* Correction décalage */
+{
     padding-left: 0;
 }
 
-nav li {
+nav li /* Menu souligné en gris */
+{
     width: 100%;
     border-bottom: 2px solid #f2f2f2;
 }
 
-nav a {
+nav a /*Liens centrés, occupent toute la largeur*/
+{
     display: block;
     text-align: center;
     width: 100%;
-    color: black;
 }
 
-.inscription 
-{
-    position: absolute;
-    top: 40px;
-    right: 50px;
-}
-
-.logo
-{
-    margin-left: 25px;
-}
-
-li a:hover /*Effets au survol : ligne bleue en-dessous et texte en bleu*/
+li a:hover /*Effets au survol : ligne bleue en-dessous et texte en bleu (et annuler ligne au dessus) */
 {
     color: #0065fc; 
     border-bottom: 2px solid #0065fc;
