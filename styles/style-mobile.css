@@ -1,5 +1,7 @@
 header /* Taille de police plus importante sur mobile*/
 {
+    margin-left: 0;
+    margin-right: 0;
     font-size: 1.1em;
 }
 
@@ -23,10 +25,8 @@ header /* Taille de police plus importante sur mobile*/
     text-align: right;
 }
 
-nav /* Menu centré */
+nav /* Menu prend toute la largeur */
 {
-    margin-left: 20px;
-    margin-right: 20px;
     width: 100%;
 }
 
@@ -48,11 +48,35 @@ nav a /*Liens centrés, occupent toute la largeur*/
     width: 100%;
 }
 
-li a:hover /*Effets au survol : ligne bleue en-dessous et texte en bleu (et annuler ligne au dessus) */
+header li a:hover /*Effets au survol : ligne bleue en-dessous et texte en bleu (et annuler ligne au dessus) */
 {
     color: #0065fc; 
     border-bottom: 2px solid #0065fc;
     padding-top: 15px;
     padding-bottom: 15px;
     border-top: none;
+}
+
+footer /*Pied de page comprenant trois blocs alignés, fond gris sur toute la largeur*/
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 1.1em;
+    padding-block-start: 1em;
+}
+
+footer div /*Trois blocs les uns sous les autres, occupent toute la largeur*/
+{
+    padding-left: 40px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+footer h5
+{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-block-end: 0;
+    margin-block-start: 1.5em;
 }
