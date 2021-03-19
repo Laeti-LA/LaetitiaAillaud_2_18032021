@@ -61,14 +61,14 @@ nav li
     height: 50px;
 }
 
-li a /* Annuler effets liens soulignés et colorés*/
+li a /*Annuler effets liens soulignés et colorés*/
 {
     text-decoration: none;
     color: black;
     width: 100px;
 }
 
-.inscription a /*lien "S'inscrire"* non souligné et toujours bleu*/
+.inscription a /*Lien "S'inscrire"* non souligné et toujours bleu*/
 {
     text-decoration: none;
     color: #0065fc;

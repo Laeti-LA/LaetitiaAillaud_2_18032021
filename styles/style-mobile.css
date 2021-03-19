@@ -25,17 +25,17 @@ header /* Taille de police plus importante sur mobile*/
     text-align: right;
 }
 
-nav /* Menu prend toute la largeur */
+nav /*Menu prend toute la largeur*/
 {
     width: 100%;
 }
 
-nav ul /* Correction décalage */
+nav ul /*Correction décalage*/
 {
     padding-left: 0;
 }
 
-nav li /* Menu souligné en gris */
+nav li /*Menu souligné en gris*/
 {
     width: 100%;
     border-bottom: 2px solid #f2f2f2;
