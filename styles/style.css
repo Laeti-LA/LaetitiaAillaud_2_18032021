@@ -104,13 +104,19 @@ h1
     line-height: 0.2em;
 }
 
-.recherche
+.recherche 
 {
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
 }
 
+form
+{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .icone
 {
@@ -123,6 +129,11 @@ h1
     width: 30px;
 }
 
+i
+{
+    margin:auto;
+}
+
 input
 {
     height: 30px;
@@ -133,10 +144,10 @@ input
     border-bottom: 1px solid #F2F2F2
 }
 
+
 button
 {
     color: white;
-    font-weight: bold;
     background-color: #0065fc;
     border-radius: 0 10px 10px 0;
     border:none;
