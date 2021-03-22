@@ -136,6 +136,7 @@ i
 
 input
 {
+    font-weight: bold;
     height: 30px;
     padding-left: 10px;
     border-left: none;
@@ -152,6 +153,65 @@ button
     border-radius: 0 10px 10px 0;
     border:none;
     height: 30px;
+}
+
+.filtres 
+{
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.filtres ul /*Filtres aspect "chips" alignés*/
+{
+    display: inline-flex;
+}
+
+.filtres li 
+{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.filtres input
+{
+    font-style: none;
+    border: none;
+    background: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.filtres .icone
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#DEEBFF;
+    border-radius: 20px;
+    border: 2px solid #DEEBFF;
+    height: 30px;
+    width: 30px;
+}
+
+.filtres i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+}
+
+.filtres li:hover /*Effet au survol : background uni (bleu clair) et ombre (gris) en-dessous*/
+{
+    box-shadow: 5px 5px 4px #F2F2F2;
+    background-color: #DEEBFF;
+    border: 2px solid #DEEBFF;
 }
 
 /* SECTION 2 : Hébergements */
