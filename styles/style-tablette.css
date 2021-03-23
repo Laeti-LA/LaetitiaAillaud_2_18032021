@@ -1,5 +1,132 @@
+/* Tablette : Ajustements du HEADER */
+
+header /* Marges et taille de la police plus importantes */
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+/* Tablette : Ajustements de la SECTION 1 */
+
+.page /* Marges plus importantes sur les côtés */
+{
+    font-size: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 /* Agrandir font-size*/
+{
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.recherche 
+{
+    border-radius: 15px;
+}
+
+.recherche .icone
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+}
+
+.recherche i
+{
+    font-size: 1.2em;
+}
+
+.recherche input
+{
+    padding-left: 20px;
+}
+
+.recherche button
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    background-size: 15px;
+    background-position: center;
+}
+
+.button-submit-text /* Texte "rechercher" du bouton remplacé par une icone "loupe" */
+{
+    display: none;
+}
+
+.button-submit-icon /* Faire apparaitre l'icone "loupe" cachée dans la version Desktop */
+{
+    display: flex;
+}
+
+.filtres
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filtres ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.filtres li
+{
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding-left: 0;
+    height: 50px;
+    border-radius: 40px;
+    padding-right: 20px;
+}
+
+.filtres .icone
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+}
+
+.filtres i
+{
+    font-size: 1.2em;
+}
+
+.filtres input
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/* Tablette : Ajustements de la SECTION 2 */
+
+
+
+/* Tablette : Ajustements de la SECTION 3 */
+
+
+
+/* Tablette : Ajustements du FOOTER */
+
 footer /*2 blocs alignés et retour à la ligne pour le 3ème*/
 {
     flex-flow: row wrap;
 }
 
+footer div /* Marges côtés plus impportantes (comme le header et le bloc page)*/
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}

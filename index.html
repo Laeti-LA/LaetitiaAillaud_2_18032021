@@ -3,6 +3,7 @@
        <head>
                <meta charset="utf-8" />
                <script src="https://kit.fontawesome.com/56e0717261.js" crossorigin="anonymous"></script>
+               <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
                <link rel="stylesheet" href="styles/style.css" />
                <link rel="stylesheet" media="all and (max-width: 768px)" href="styles/style-mobile.css" />
                <link rel="stylesheet" media="all and (min-width: 769px) and (max-width: 991px)" href="styles/style-tablette.css" />
@@ -30,7 +31,7 @@
 
             <div class="page"> 
                   <!-- Bloc page : marge de 20px de chaque côté 
-                  Contient 3 sections : barre de recherche et filtres, section hébergements et section activités -->
+                  Contient 3 sections : section 1 barre de recherche et filtres, section 2 hébergements et section 3 activités -->
                   <section class="recherche-logements">
                         <!-- Barre de recherche, filtres et info -->
                         <div class="titre">
@@ -42,8 +43,9 @@
                               <!-- Barre de recherche -->
                               <div class="icone">
                                 <i class="fas fa-map-marker-alt"></i>
-                              </div class="formulaire">
-                                <form method="post" action="">
+                              </div>
+                              <div class="formulaire">
+                                <form method="post">
                                     <input type="search" name="localisation" value="Marseille, France"/>
                                     <button type="submit">
                                       <span class="button-submit-text">Rechercher</span>
@@ -52,6 +54,7 @@
                                 </form>
                               </div> 
                           </div>
+                          <br>
                           <div class="filtres">
                               <!-- Filtres -->
                               <p>Filtres</p>

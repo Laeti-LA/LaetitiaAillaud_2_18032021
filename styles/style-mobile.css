@@ -1,4 +1,4 @@
-/* Ajustements du HEADER */
+/* Mobile : Ajustements du HEADER */
 header /* Taille de police plus importante sur mobile*/
 {
     margin-left: 0;
@@ -58,7 +58,7 @@ header li a:hover /*Effets au survol : ligne bleue en-dessous et texte en bleu (
     border-top: none;
 }
 
-/* Ajustements de la SECTION 1 */
+/* Mobile : Ajustements de la SECTION 1 */
 
 .page /* Marges plus importantes sur les côtés */
 {
@@ -69,8 +69,9 @@ header li a:hover /*Effets au survol : ligne bleue en-dessous et texte en bleu (
 
 h1 /* Agrandir font-size*/
 {
-    font-size: 2em;
-    line-height: 1em;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    word-spacing: 0.2em;
 }
 
 .recherche 
@@ -103,12 +104,12 @@ h1 /* Agrandir font-size*/
     background-position: center;
 }
 
-.button-submit-text
+.button-submit-text /* Texte "rechercher" du bouton remplacé par une icone "loupe" */
 {
     display: none;
 }
 
-.button-submit-icon
+.button-submit-icon /* Faire apparaitre l'icone "loupe" cachée dans la version Desktop */
 {
     display: flex;
 }
@@ -118,8 +119,6 @@ h1 /* Agrandir font-size*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .filtres ul
@@ -151,7 +150,7 @@ h1 /* Agrandir font-size*/
 
 .filtres i
 {
-font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .filtres input
@@ -160,13 +159,18 @@ font-size: 1.2em;
     padding-right: 15px;
 }
 
-.info
-{
-    margin-left: 40px;
-    margin-right: 40px;
-}
 
-/* Ajustements du FOOTER */
+
+/* Mobile : Ajustements de la SECTION 2 */
+
+
+
+/* Mobile : Ajustements de la SECTION 3 */
+
+
+
+/* Mobile : Ajustements du FOOTER */
+
 footer /*Pied de page comprenant trois blocs alignés, fond gris sur toute la largeur*/
 {
     display: flex;
