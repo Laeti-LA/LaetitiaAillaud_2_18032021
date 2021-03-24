@@ -249,6 +249,55 @@ button
 
 /* SECTION 2 : Hébergements */
 
+.results
+{
+    max-width: 2000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
+.results h2
+{
+    font-size: 1em;
+}
+
+.hebergements-marseille
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.hebergements-results
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.hebergements-results .hotel-card img
+{
+    max-width: 210px;
+}
+
+.hebergements-populaires .hotel-card img
+{
+    max-width: 250px;
+}
+
+.hebergements-populaires
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 
 /* SECTION 3 : Activités */
 
