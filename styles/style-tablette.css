@@ -196,7 +196,36 @@ h1 /* Agrandir font-size*/
 
 /* Tablette : Ajustements de la SECTION 3 */
 
+.activites-results
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+}
 
+#activity-card-one
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#activity-cards-two-three
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#activity-card-four
+{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#activity-cards-five-six
+{
+    grid-column: 1;
+    grid-row: 2;
+}
 
 /* Tablette : Ajustements du FOOTER */
 
@@ -207,6 +236,7 @@ footer /*2 blocs alignés et retour à la ligne pour le 3ème*/
     grid-auto-rows: auto;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: 1.1em;
 }
 
 footer .about
