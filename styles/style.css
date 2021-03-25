@@ -261,30 +261,6 @@ button
     margin-bottom: 20px;
 }
 
-.results h2
-{
-    font-size: 1em;
-    margin-top: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.cover
-{
-    object-fit: cover;
-}
-
-.hotel-card /* Ombre autour de toutes les hotel-cards */
-{
-    box-shadow: 0 2px 10px #D2D2D2;
-}
-
-.tarif
-{
-    font-size: 0.6em;
-    line-height: 0.5;
-}
-
 /* ASIDE 1 Hébergements à Marseille */
 .hebergements-marseille
 {
@@ -511,6 +487,21 @@ button
     line-height: 0.5;
 }
 
+/* Customisation diverses */
+.results h2
+{
+    font-size: 1em;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tarif
+{
+    font-size: 0.6em;
+    line-height: 0.5;
+}
+
 /* Customisation des étoiles */
 .rating i
 {
@@ -532,6 +523,22 @@ button
 {
     text-decoration: none;
     color: black
+}
+
+/* Customisation des cards */
+.hotel-card /* Ombre autour de toutes les hotel-cards */
+{
+    box-shadow: 0 2px 10px #D2D2D2;
+}
+
+.cover
+{
+    object-fit: cover;
+}
+
+.hotel-card:hover /* Effet d'ombre accentué autour des cards au survol */
+{
+    box-shadow: 8px 8px 10px #D2D2D2;
 }
 
 /* SECTION 3 : Activités */

@@ -163,6 +163,17 @@ h1 /* Agrandir font-size*/
 
 /* Mobile : Ajustements de la SECTION 2 */
 
+.results /* Aside Les plus Populaires passe au-dessus de l'aside Hébergements à Marseille */
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hebergements-results
+{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* Mobile : Ajustements de la SECTION 3 */
