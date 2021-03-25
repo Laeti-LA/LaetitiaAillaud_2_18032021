@@ -173,6 +173,27 @@ h1 /* Agrandir font-size*/
     flex-direction: column;
 }
 
+.hebergements-results .hotel-name
+{
+    font-size: 0.9em;
+}
+
+.populaires-results .hotel-name
+{
+    font-size: 0.9em;
+}
+
+.tarif
+{
+    font-size: 0.8em;
+    line-height: 0.5;
+}
+
+/* Customisation des étoiles */
+.rating i
+{
+    font-size: 0.6em;
+}
 
 /* Mobile : Ajustements de la SECTION 3 */
 
