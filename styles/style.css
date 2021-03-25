@@ -329,15 +329,10 @@ button
 
 .hebergements-results .hotel-card img
 {
-    min-width: 99%;
+    min-width: 99.5%;
     height: 90px; 
     border: 1px solid white;
     border-radius: 15px 15px 0 0;
-}
-
-.hebergements-results .hotel-card .hotel-info
-{
-    margin-bottom: 5px;
 }
 
 .hebergements-results .hotel-name
@@ -349,6 +344,7 @@ button
 .hebergements-marseille .hotel-info
 {
     padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 .hebergements-results .price

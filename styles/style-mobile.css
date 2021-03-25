@@ -178,6 +178,11 @@ h1 /* Agrandir font-size*/
     font-size: 0.9em;
 }
 
+.hebergements-results .hotel-card img
+{
+    height: 100px; 
+}
+
 .populaires-results .hotel-name
 {
     font-size: 0.9em;
@@ -197,6 +202,54 @@ h1 /* Agrandir font-size*/
 
 /* Mobile : Ajustements de la SECTION 3 */
 
+.activites
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.activites-results
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#activity-card-one img
+{
+    height: 125px;
+}
+
+#activity-card-two img
+{
+    height: 125px;
+}
+
+#activity-card-three img
+{
+    height: 125px;
+}
+
+#activity-card-four img
+{
+    height: 125px;
+}
+
+#activity-card-five img
+{
+    height: 125px;
+}
+
+#activity-card-six img
+{
+    height: 125px;
+}
+
+.activity-card p
+{
+    font-size: 0.9em;
+    height: 25px;
+    padding-top: 10px;
+}
 
 
 /* Mobile : Ajustements du FOOTER */
