@@ -161,7 +161,7 @@ h1 /* Agrandir font-size*/
 
 /* Mobile : Ajustements de la SECTION 2 */
 
-.results /* Aside Les plus Populaires passe au-dessus de l'aside Hébergements à Marseille */
+.results /* Bloc Les plus Populaires passe au-dessus de l'aside Hébergements à Marseille */
 {
     display: flex;
     flex-direction: column-reverse;
@@ -254,11 +254,11 @@ h1 /* Agrandir font-size*/
 
 /* Mobile : Ajustements du FOOTER */
 
-footer /*Pied de page comprenant trois blocs alignés, fond gris sur toute la largeur*/
+footer /* Ajustement des trois blocs avec Flexbox */
 {
     display: flex;
-    width: 100%;
     flex-direction: column;
+    width: 100%;
     font-size: 1.1em;
     padding-top: 1em;
     margin-right: 0;

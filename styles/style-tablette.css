@@ -112,13 +112,13 @@ h1 /* Agrandir font-size*/
 
 /* Tablette : Ajustements de la SECTION 2 */
 
-.results /* Aside Les plus Populaires passe au-dessus de l'aside Hébergements à Marseille */
+.results /* Bloc Les plus Populaires passe au-dessus du bloc Hébergements à Marseille */
 {
     display: flex;
     flex-direction: column-reverse;
 }
 
-.hebergements-results
+.hebergements-results /* Ajustement du positionnement des hotel-cards */
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
