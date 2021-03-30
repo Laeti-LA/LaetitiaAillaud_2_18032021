@@ -172,10 +172,22 @@ h1 /* Agrandir font-size*/
 
 .results /* Bloc Les plus Populaires passe au-dessus de l'aside Hébergements à Marseille */
 {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between ;
-    row-gap: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 35px;
+}
+
+.hebergements-populaires
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.hebergements-marseille
+{
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .hebergements-results .hotel-name

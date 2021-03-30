@@ -114,8 +114,22 @@ h1 /* Agrandir font-size*/
 
 .results /* Bloc Les plus Populaires passe au-dessus du bloc Hébergements à Marseille */
 {
-    display: flex;
-    flex-direction: column-reverse;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 35px;
+}
+
+.hebergements-populaires
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.hebergements-marseille
+{
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .hebergements-results /* Ajustement du positionnement des hotel-cards */
@@ -164,9 +178,6 @@ h1 /* Agrandir font-size*/
 
 .populaires-results
 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 10px;
