@@ -2,6 +2,7 @@ body
 {
     font-family: 'Raleway', sans-serif;
     max-width: 2000px;
+    margin: auto;
 }
 
 /* HEADER */
@@ -140,6 +141,15 @@ form
     border: none;
 }
 
+.recherche input:focus
+{
+    outline: none;
+}
+
+.recherche button:focus
+{
+    outline: none;
+}
 
 button
 {
@@ -188,6 +198,11 @@ button
     padding-left: 10px;
     padding-right: 15px;
     font-weight: bold;
+}
+
+.filtres input:focus
+{
+    outline: none;
 }
 
 .filtres .icone
