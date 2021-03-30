@@ -58,6 +58,15 @@ header li a:hover /*Effets au survol : ligne bleue en-dessous et texte en bleu (
     border-top: none;
 }
 
+header li a:active /*Effets au clic : ligne bleue en-dessous et texte en bleu (et annuler ligne au dessus) */
+{
+    color: #0065fc; 
+    border-bottom: 2px solid #0065fc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: none;
+}
+
 /* Mobile : Ajustements de la SECTION 1 */
 
 .page /* Marges plus importantes sur les côtés */
