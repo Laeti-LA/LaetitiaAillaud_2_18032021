@@ -174,12 +174,8 @@ h1 /* Agrandir font-size*/
 {
     display: flex;
     flex-direction: column-reverse;
-}
-
-.hebergements-results
-{
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between ;
+    row-gap: 35px;
 }
 
 .hebergements-results .hotel-name
@@ -203,6 +199,51 @@ h1 /* Agrandir font-size*/
     line-height: 0.5;
 }
 
+/* Positionnement des hotel-cards du bloc Hébergements avec Grid */
+.hebergements-results
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 30px;
+}
+
+#hebergements-hotel-card-one
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#hebergements-hotel-card-two
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#hebergements-hotel-card-three
+{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#hebergements-hotel-card-four
+{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#hebergements-hotel-card-five
+{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#hebergements-hotel-card-six
+{
+    grid-column: 1;
+    grid-row: 6;
+}
+
 /* Customisation des étoiles */
 .rating i
 {
@@ -219,8 +260,41 @@ h1 /* Agrandir font-size*/
 
 .activites-results
 {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 30px;
+}
+
+.bloc-activites 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto ;
+    grid-gap: 30px;
+}
+
+#activity-card-one
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#activity-cards-two-three
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#activity-card-four
+{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#activity-cards-five-six
+{
+    grid-column: 1;
+    grid-row: 4;
 }
 
 #activity-card-one img
