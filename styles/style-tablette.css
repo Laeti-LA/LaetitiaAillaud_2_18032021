@@ -5,6 +5,7 @@ header /* Marges et taille de la police plus importantes */
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 50px;
+    font-size: 0.9em;
 }
 
 /* Tablette : Ajustements de la SECTION 1 */
@@ -42,6 +43,7 @@ h1 /* Agrandir font-size*/
 .recherche input
 {
     padding-left: 20px;
+    font-size: 1em;
 }
 
 .recherche button
@@ -106,6 +108,7 @@ h1 /* Agrandir font-size*/
 {
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 1em;
 }
 
 
