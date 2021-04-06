@@ -95,7 +95,7 @@ header li a:active /*Effets au clic : ligne bleue en-dessous et texte en bleu (e
 
 .recherche-logements
 {
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 h1 /* Agrandir font-size*/
@@ -209,7 +209,8 @@ h1 /* Agrandir font-size*/
     border-radius: 0;
     margin-left: 0;
     margin-right: 0;
-    width: 100%;
+    padding-left: 15px;
+    padding-right: 0;
 }
 
 .hebergements-marseille
@@ -217,8 +218,7 @@ h1 /* Agrandir font-size*/
     grid-column: 1;
     grid-row: 2;
     margin-right: 0;
-    padding-right: 0;
-    width: 100%;
+    padding: 0 0 0 15px;
 }
 
 .hebergements-results .hotel-name
@@ -234,6 +234,11 @@ h1 /* Agrandir font-size*/
 .populaires-results .hotel-name
 {
     font-size: 0.9em;
+}
+
+.hebergements-populaires-title
+{
+    padding-right: 15px;
 }
 
 .tarif
@@ -294,6 +299,16 @@ h1 /* Agrandir font-size*/
     background-color: white;
 }
 
+.hebergements-results .hotel-card
+{
+    width: 95%;
+}
+
+.hebergements-populaires .hotel-card
+{
+    width: 95%;
+}
+
 /* Customisation des étoiles */
 .rating i
 {
@@ -304,9 +319,7 @@ h1 /* Agrandir font-size*/
 
 .activites
 {
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 100%;
+    padding-left: 15px;
 }
 
 .activites-results
@@ -385,6 +398,10 @@ h1 /* Agrandir font-size*/
     padding-top: 10px;
 }
 
+.activity-card
+{
+    width: 95%;
+}
 
 /* Mobile : Ajustements du FOOTER */
 
@@ -395,7 +412,7 @@ footer /* Ajustement des trois blocs avec Flexbox */
     width: 100%;
     font-size: 1.1em;
     padding-top: 1em;
-    padding-left: 20px;
+    padding-left: 0;
     margin-right: 0;
     margin-left: 0;
 }
