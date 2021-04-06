@@ -1,8 +1,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    max-width: 2000px;
     margin: auto;
+    overflow-x: hidden; 
 }
 
 /* HEADER */
@@ -13,10 +13,11 @@ header /*Logo, menu "Hébergements et Activités" et lien "S'inscrire" alignés 
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: 2000px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 0.8em
+    font-size: 0.8em;
 }
 
 .logo /*Décalage logo*/
@@ -687,11 +688,9 @@ footer /* Positionnement du pied-de-page avec Grid, fond gris, 100% de la largeu
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: auto;
-    grid-gap: 15px;
     width: 100%;
     max-width: 2000px;
     padding-bottom: 20px;
-    padding-left: 20px;
     margin-top: 40px;
     font-size: 1em;
     background-color: #f2f2f2;
@@ -701,18 +700,21 @@ footer .about
 {
     grid-column: 1;
     grid-row: 1;
+    padding-left: 20px;
 }
 
 footer .hebergements
 {
     grid-column: 2;
     grid-row: 1;
+    padding-left: 20px;
 }
 
 footer .help
 {
     grid-column: 3;
     grid-row: 1;
+    padding-left: 20px;
 }
 
 footer h5
